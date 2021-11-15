@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Roboto, serif;
+}
+
+header {
+    color: white;
+}
+
+section#topBarMenu {
+    background-color: black;
+    padding: 4px 0 4px 90px;
+    font-size: 10px;
+}
+
+section#mainBar {
+    background-color: #F0A83E;
+    padding: 20px 0 20px 40px;
+    font-size: 13px;
+
+}
+
+section#topBarMenu ul {
+    display: inline-block;
+    position: absolute;
+    right: 60px;
+}
+
+section#mainBar ul {
+    display: inline-block;
+    position: absolute;
+    right: 40px;
+    padding-top: 5px;
+}
+
+section#topBarMenu ul li {
+    display: inline-block;
+    padding-left: 12px;
+}
+
+section#mainBar ul li {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+section#Banner {
+    position: relative;
+    background-image: url('../img/banner.png');
+    background-color: white;
+    background-size: cover;
+    height: 409px;
+}
+
+section#Banner article {
+    position: absolute;
+    right: 22px;
+    top: 164px;
+    text-align: center;
+}
+
+section#Banner h2 {
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+section#Banner p {
+    padding: 12px;
+    font-size: 16px;
+}
+
+section#Banner button {
+    border: none;
+    background-color: #F0A83E;
+    border-radius: 5px;
+    padding: 15px 23px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 16px;
+}
+
+section#productos {
+    display: absolute;
+    text-align: center;
+    background-color: white;
+    margin: 0 30px 50px;
+}
+
+section#introProd {
+    display: absolute;
+    text-align: center;
+    background-color: white;
+}
+
+section#introProd i {
+    color: #F0A83E;
+    font-size: 65px;
+    padding: 20px 0 5px;
+}
+
+section#introProd h1 {
+    font-weight: 700;
+    font-size: 40px;
+    color: #3C2313;
+}
+
+section#introProd p {
+    font-size: 15px;
+    color: #666666;
+    padding: 20px 0 49px;
+}
+
+article.Producto {
+    display: inline-block;
+    background-color: #FBFAF6;
+    width: 265px;
+    margin: 0 10px;
+}
+
+
+article.Producto h3 {
+    font-weight: 500;
+    font-size: 15px;
+    color: #3C2313;
+}
+
+article.Producto span {
+    color: #F0A83E;
+    padding-bottom: 5px;
+}
+
+section#ContactUs h2 {
+    color: #3C2313;
+}
+
+::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+section#ContactUs input {
+    border: none;
+    display: block;
+    background-color: #3C2313;
+    color: white;
+    border-radius: 15px;
+    font-size: 9px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section#ContactUs input.fillOut {
+    width: 340px;
+    height: 40px;
+
+}
+
+section#ContactUs input#Reset {
+    display: inline-block;
+    width: 110px;
+    height: 34px;
+    background-color: #8A8787;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+section#ContactUs input#Enviar {
+    display: inline-block;
+    width: 110px;
+    height: 34px;
+    background-color: #F0A83E;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+section#subscribe {
+    background-color: #F0A83E;
+}
+
+#bottomFooter {
+    background-color: black;
+    text-align: center;
+}
+
+#topperFooter {
+    background-color: #3C2313;
+}
+
+
+
+h5 {
+    font-size: 20px;
+}
+
+footer {
+    color: white;
+}

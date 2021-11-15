@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+}
+
+
+body{
+    font-family: Roboto, serif;
+}
+
+main {
+    margin: 154px 32px 151px 2px;
+    text-align: center;
+}
+
+
+article {
+    position: relative;
+    background-color: #F3F3F3;
+    display: inline-block;
+    width: 300px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    text-align: center;
+    border-radius: 16px 16px 0 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    color: white;
+    background-color: #00669F;
+    padding: 16px;
+}
+
+#topBar{
+    background-color: #1CD1B0;
+    display: block;
+    padding: 10px;
+}
+
+h1 {
+    background-color: #00669F;
+    margin: 0;
+    font-weight: 300;
+    padding: 28px 0 26px 28px;
+    font-size: 40px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+h3 {
+    font-size: 30px;
+    padding: 74px 0 10px;
+    /* text-align: center; */
+}
+
+
+i {
+    font-size: 30px;
+    color: #CC2424;
+    position: absolute;
+    top: 15.27px;
+    left: 21px;
+}
+
+p {
+    display: block;
+    padding: 0 17px 37px 16px;
+    text-align: left;
+    /* width: 300px; */
+    /* box-sizing: border-box; */
+    
+}
+
+button {
+    background-color: #00669F;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px 37px;
+    margin-bottom: 18.48px;
+
+}
+
+.avatar {
+    position: absolute;
+    border-radius: 50%;
+    top: 128px;
+    left: 90px;
+
+}
+
