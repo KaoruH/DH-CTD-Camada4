@@ -137,6 +137,8 @@ article.Producto span {
 
 section#ContactUs h2 {
     color: #3C2313;
+    text-align: center;
+    padding-bottom: 20px;
 }
 
 ::placeholder {
@@ -144,25 +146,36 @@ section#ContactUs h2 {
     opacity: 1;
 }
 
-section#ContactUs input {
+section#ContactUs form input {
     border: none;
     display: block;
     background-color: #3C2313;
     color: white;
     border-radius: 15px;
     font-size: 9px;
+}
+
+section#ContactUs form input.fillOut {
+    width: 340px;
+    height: 40px;
+    margin-bottom: 10px;
+    padding-left: 14px;
+    box-sizing: border-box;
     position: relative;
     left: 50%;
     transform: translateX(-50%);
-}
-
-section#ContactUs input.fillOut {
-    width: 340px;
-    height: 40px;
 
 }
 
-section#ContactUs input#Reset {
+section#ContactUs form div {
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 31px 0 75px;
+}
+
+section#ContactUs form input#Reset {
     display: inline-block;
     width: 110px;
     height: 34px;
@@ -171,7 +184,7 @@ section#ContactUs input#Reset {
     font-weight: 400;
 }
 
-section#ContactUs input#Enviar {
+section#ContactUs form input#Enviar {
     display: inline-block;
     width: 110px;
     height: 34px;
@@ -183,6 +196,19 @@ section#ContactUs input#Enviar {
 section#subscribe {
     background-color: #F0A83E;
 }
+
+section#subscribe span, section#subscribe i {
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+section#subscribe form {
+    display: inline-block;
+}
+
+
+
 
 #bottomFooter {
     background-color: black;
